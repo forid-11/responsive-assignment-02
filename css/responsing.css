@@ -1,0 +1,60 @@
+/* Navber and Banner section responsive start  */
+/*------------ mobile -------------*/
+
+@media screen and (max-width: 576px) {
+    .nav-container
+    {
+        flex-direction: column;
+    }
+
+    .nav-container ul{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .nav-container li{
+        margin-top: 20px;
+    }
+
+    .banner-contant{
+        flex-direction: column-reverse;
+    }
+
+    .banner-text{
+        width: 100%;
+        padding-left: 100px;
+        margin-bottom: 40px;
+    }
+
+    .banner-img{
+        width: 100%;
+        padding: 30px;
+    }
+}
+
+/*------------ tablet and medium devices --------------*/
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .nav-container,
+    .banner-contant
+    {
+        flex-direction: column;
+    }
+
+    .nav-container ul{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .banner-text{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .banner-img{
+        width: 100%;
+        padding: 50px;
+    }
+}
