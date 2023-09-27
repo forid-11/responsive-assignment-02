@@ -11,7 +11,9 @@
 }
 
 
-/* ------------navber style start here------------------- */
+/* -------------------------------------------------------
+                navber style start here
+--------------------------------------------------------- */
 
 .navber{
     background-color: #FFF;
@@ -154,7 +156,334 @@
     width: 100%;
 }
 
-/*------------------------------------------------------------ 
+/*--------------------------------------------------------- 
             WE are gamer section style start here 
---------------------------------------------------------------*/
+------------------------------------------------------------*/
 
+.secondary-container{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    min-height: 200px;
+}
+
+.secondary-banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0;
+}
+
+.secondary-banner-img{
+    width: 50%;
+}
+
+.secondary-banner-img img{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.secondary-banner-text{
+    width: 50%;
+}
+
+.secondary-banner-title{
+    font-size: 3rem;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 25px;
+}
+
+.secondary-banner-description{
+    color: #534C64;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.position{
+    display: flex;
+    justify-content: end;
+}
+
+.secondary-banner-btn{
+    border: none;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: #F144AE;
+    border-radius: 50px;
+    padding: 20px 40px;
+    margin: 20px 0;
+}
+
+.secondary-banner-stats{
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* ---------------------------------------------------------  
+        Online Games Funny Videos sectin design start here
+        ----------------------------------------------------- */
+
+.container{
+    max-width: 1440px;
+    margin: 50px auto 0; 
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.funny-video-container{
+    flex-basis: 300px;
+}
+
+.funny-video-title{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.color-text{
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.funny-video-description{
+    color: #534C64;
+    font-size: 1.2;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img-contant{
+    position: relative;
+}
+
+.img-contant img:hover{
+    border: 1px solid #f3099a;
+    border-radius: 20px;
+}
+
+.media-icon{
+    text-align: center;
+}
+
+.img-contant .media-icon{
+    position: absolute;
+    top: 45%;
+    right: 130px;
+}
+
+.watch-now{
+    color: #f3099a;
+}
+
+.fa-circle-play{
+    color: #FFF;
+}
+
+.funny-img-description{
+    color: #534C64;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+/* ---------------------------------------------- 
+            play instandly section design start here 
+        ----------------------------------------------- */
+
+
+        /* ---------------------------------------------- 
+        play game online section design start here 
+    -----------------------------------------------------*/
+
+
+    /* ---------------------------------------------- 
+            careers section design start here 
+        ----------------------------------------------- */
+
+.careers-container{
+    background-color: #FF42A5;
+}
+
+.text-container{
+    width: 50%;
+}
+
+.careers-contant{
+    max-width: 1440px;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-contant-title{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.text-contant-description{
+    color: #FFF;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.careers-img-container{
+    width: 50%;
+}
+
+.careers-img-container img{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.careers-img-contant img{
+    display: block;
+}
+
+.text-contant-artical{
+    display: flex;
+}
+
+.artical-stats{
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.artical-btn{
+    border: none;
+    color: #f3099a;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #FFF;
+    border-radius: 50px;
+    padding: 20px 40px;
+    margin-top: 40px;
+}
+
+.first-artical{
+    width: 50%;
+}
+
+.second-artical{
+    width: 50%;
+}
+
+/*---------------------------------------------------------------- 
+            game list container style start here 
+-----------------------------------------------------------------*/
+
+.game-list-container{
+    max-width: 1440px;
+    margin: 50px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.game-list{
+    display: flex;
+    align-items: center;
+    background-color: #eeebeb;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.game-list-title{
+    color: #0B0223;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+
+/*---------------------------------------------------------------- 
+            footer section style start here 
+-----------------------------------------------------------------*/
+
+.footer-container{
+    min-height: 200px;
+    text-align: center;
+    background-color: #0B0223;
+    padding: 100px 0;
+    margin-top: 50px;
+}
+
+.footer-contant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.footer-icon-title{
+    color: #FFF;
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.footer-icon-title .footer-title-color{
+    color: #FF42A5 ;
+}
+
+.footer-nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav-container h4{
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+.footer-socail-container .fa-brands{
+    color: #FFF;
+    font-size: 2rem;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.footer-descriptin-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-descriptin-container p{
+    color: #eeebeb;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+.footer-copy-right{
+    text-align: center;
+    color: #eeebeb;
+    font-size: 1.2rem;
+    font-weight: 500;
+}

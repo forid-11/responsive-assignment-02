@@ -2,7 +2,8 @@
 /*------------ mobile -------------*/
 
 @media screen and (max-width: 576px) {
-    .nav-container
+    .nav-container,
+    .secondary-banner
     {
         flex-direction: column;
     }
@@ -31,6 +32,29 @@
         width: 100%;
         padding: 30px;
     }
+
+    .secondary-banner-img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .secondary-banner-text{
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .position{
+        justify-content: center;
+    }
+
+    .container-flex{
+        flex-direction: column;
+    }
+
+    .funny-video-container{
+        flex-basis: 0;
+    }
 }
 
 /*------------ tablet and medium devices --------------*/
@@ -56,5 +80,24 @@
     .banner-img{
         width: 100%;
         padding: 50px;
+    }
+
+    .secondary-banner{
+        flex-direction: column-reverse;
+    }
+
+    .secondary-banner-img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .secondary-banner-text{
+        width: 100%;
+        text-align: center;
+        padding: 50px;
+    }
+
+    .position{
+        justify-content: center;
     }
 }
