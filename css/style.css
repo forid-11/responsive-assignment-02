@@ -300,16 +300,103 @@
 /* ---------------------------------------------- 
             play instandly section design start here 
         ----------------------------------------------- */
+.play-instant-container{
+    max-width: 1440px;
+    margin: 50px auto 150px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
 
+.play-text-contant{
+    width: 50%;
+    padding-right: 50px;
+}
+
+.play-instant-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.play-instant-color{
+    color: #f3099a;
+}
+
+.play-instant-description{
+    font-size: 1.2rem;
+    color: #534C64;
+    margin-bottom: 10px;
+}
+
+.play-img-contant{
+    width: 50%;
+    position: relative;
+}
+
+.play-img-contant >img{
+    width: 80%;
+    height: 90%;
+    margin-left: 120px;
+}
+
+.mini-img-contant{
+    position:absolute;
+    bottom: -80px;
+}
 
         /* ---------------------------------------------- 
         play game online section design start here 
     -----------------------------------------------------*/
+.play-games-container{
+    max-width: 1440px;
+    margin: 100px auto 150px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
 
+.play-games-img-contant{
+    width: 50%;
+    position: relative;
+}
+
+.play-games-img-contant>img{
+    width: 80%;
+    height: 90%;
+    margin-right: 120px;
+}
+
+.mini-games-img-contant{
+    position: absolute;
+    bottom: -80px;
+    right: -30px;
+}
+
+.play-games-text-contant{
+    width: 50%;
+    padding-left: 50px;
+}
+
+.play-games-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.play-games-description{
+    color: #534C64;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
 
     /* ---------------------------------------------- 
             careers section design start here 
-        ----------------------------------------------- */
+    ----------------------------------------------- */
 
 .careers-container{
     background-color: #FF42A5;
