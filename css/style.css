@@ -236,7 +236,6 @@
 .container-flex{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .funny-video-container{
@@ -415,6 +414,10 @@
     margin-left: 20px;
 }
 
+.game-list:hover{
+    border: 2px solid #f3099a;
+}
+
 
 /*---------------------------------------------------------------- 
             footer section style start here 
@@ -430,6 +433,7 @@
 
 .footer-contant{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
@@ -448,6 +452,7 @@
 
 .footer-nav-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -460,6 +465,13 @@
     margin-bottom: 50px;
 }
 
+.footer-socail-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer-socail-container .fa-brands{
     color: #FFF;
     font-size: 2rem;
@@ -469,6 +481,7 @@
 
 .footer-descriptin-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
